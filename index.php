@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>OSIS — Arsip & Kegiatan</title>
+
+  <!-- Link ke file CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo/LOGO_OSIS.png" alt="Logo OSIS SKAWAN" class="osis-logo">
+    </div>
+    <h1>Website OSIS — Arsip & Kegiatan</h1>
+    <p class="lead">Tempat Menyimpan Dan Berbagi Dokumentasi Kegiatan OSIS Priode 2025-2026.</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Daftar Kegiatan & Link Google Drive</h2>
+      <div class="list">
+
+        <div class="item">
+          <div class="icon">📁</div>
+          <div>
+            <div class="title">Bulan Bahasa "SAJITA" Satu Jiwa 3 Bahasa 2025 (Bulhas)</div>
+            <div class="desc">Dokumentasi kegiatan bulan bahasa 2025 .</div>
+          </div>
+          <div class="gd-actions">
+            <button class="small" onclick="window.open('https://drive.google.com/drive/folders/17x30t1y_kBOpdtmOi4Ccj-xrAsWxPQyc')">Buka</button>
+            <button class="small" onclick="copyLink('https://drive.google.com/drive/folders/17x30t1y_kBOpdtmOi4Ccj-xrAsWxPQyc')">Salin</button>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="icon">📁</div>
+          <div>
+            <div class="title">Latihan Dasar Organisasi Dan Kepemimpinan 2025 (LDOK 3)</div>
+            <div class="desc">Dokumentasi dan materi pelatihan kepemimpinan OSIS.</div>
+          </div>
+          <div class="gd-actions">
+            <button class="small" onclick="window.open('https://drive.google.com/drive/folders/17x30t1y_kBOpdtmOi4Ccj-xrAsWxPQyc')">Buka</button>
+            <button class="small" onclick="copyLink('https://drive.google.com/drive/folders/17x30t1y_kBOpdtmOi4Ccj-xrAsWxPQyc')">Salin</button>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="icon">📁</div>
+          <div>
+            <div class="title">Latihan Dasar Organisasi Dan Kepemimpinan 2025 (LDOK 2)</div>
+            <div class="desc">Dokumentasi dan materi pelatihan kepemimpinan OSIS.</div>
+          </div>
+          <div class="gd-actions">
+            <button class="small" onclick="window.open('https://drive.google.com/drive/mobile/folders/16cUNlbWhHfO5httD_FG0mYGE8PU3ipr7?usp=sharing&fbclid=PAT01DUANquyNleHRuA2FlbQIxMAABp6hW4h0lvcweSrD1H2U_MR__dwIc4sZgnJ6RdMmYJ47WgUTeV2jK4zlkBJAK_aem_V--5JVpcHYhZv8HnmrJ7oQ')">Buka</button>
+            <button class="small" onclick="copyLink('https://drive.google.com/drive/mobile/folders/16cUNlbWhHfO5httD_FG0mYGE8PU3ipr7?usp=sharing&fbclid=PAT01DUANquyNleHRuA2FlbQIxMAABp6hW4h0lvcweSrD1H2U_MR__dwIc4sZgnJ6RdMmYJ47WgUTeV2jK4zlkBJAK_aem_V--5JVpcHYhZv8HnmrJ7oQ')">Salin</button>
+          </div>
+        </div>
+
+     <div class="item">
+          <div class="icon">📁</div>
+          <div>
+            <div class="title">Latihan Dasar Organisasi Dan Kepemimpinan 2025 (LDOK 1)</div>
+            <div class="desc">Dokumentasi dan materi pelatihan kepemimpinan OSIS.</div>
+          </div>
+          <div class="gd-actions">
+            <button class="small" onclick="window.open('https://drive.google.com/drive/mobile/folders/1v11laR37ccot08SATd35jv3OzZTLCZlq?usp=drive_link&fbclid=PAT01DUANqu5lleHRuA2FlbQIxMAABp-dYxfkzhaaehaBqL8oF4j-TYlct3En2GVSDyjdMY0xmZDUweIk0MlLuma9j_aem_1wHFk2NyvGpq1Fanu8jxUg')">Buka</button>
+            <button class="small" onclick="copyLink('https://drive.google.com/drive/mobile/folders/1v11laR37ccot08SATd35jv3OzZTLCZlq?usp=drive_link&fbclid=PAT01DUANqu5lleHRuA2FlbQIxMAABp-dYxfkzhaaehaBqL8oF4j-TYlct3En2GVSDyjdMY0xmZDUweIk0MlLuma9j_aem_1wHFk2NyvGpq1Fanu8jxUg')">Salin</button>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="icon">📁</div>
+          <div>
+            <div class="title">Pemilihan Ketua Osis 2025 (Pilketos) </div>
+            <div class="desc">Dokumentasi pemilihan ketua OSIS.</div>
+          </div>
+          <div class="gd-actions">
+            <button class="small" onclick="window.open('https://drive.google.com/drive/mobile/folders/1i6iLm8zTnTxHpc6nsTQJhmGOZlmw9J7W?usp=sharing&fbclid=PAT01DUANqv_hleHRuA2FlbQIxMAABp6hW4h0lvcweSrD1H2U_MR__dwIc4sZgnJ6RdMmYJ47WgUTeV2jK4zlkBJAK_aem_V--5JVpcHYhZv8HnmrJ7oQ')">Buka</button>
+            <button class="small" onclick="copyLink('https://drive.google.com/drive/mobile/folders/1i6iLm8zTnTxHpc6nsTQJhmGOZlmw9J7W?usp=sharing&fbclid=PAT01DUANqv_hleHRuA2FlbQIxMAABp6hW4h0lvcweSrD1H2U_MR__dwIc4sZgnJ6RdMmYJ47WgUTeV2jK4zlkBJAK_aem_V--5JVpcHYhZv8HnmrJ7oQ')">Salin</button>
+          </div>
+        </div>
+
+        
+         <div class="item">
+          <div class="icon">📁</div>
+          <div>
+            <div class="title">Semarak Merah Putih Lomba Agustusan </div>
+            <div class="desc">Dokumentasi Kegiatan Lomba Agustusan.</div>
+          </div>
+          <div class="gd-actions">
+            <button class="small" onclick="window.open('https://drive.google.com/drive/folders/1VnBV0MBdoYKW8HZPixeAPw_DOjqNfe9F?usp=sharing')">Buka</button>
+            <button class="small" onclick="copyLink('https://drive.google.com/drive/folders/1VnBV0MBdoYKW8HZPixeAPw_DOjqNfe9F?usp=sharing')">Salin</button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <aside class="card">
+      <div class="info">
+        <h3>Selamat Datang di Pusat Arsip OSIS Skawan</h3>
+        <p>Website ini menjadi ruang digital untuk mendokumentasikan setiap kegiatan lomba yang di adakan oleh OSISKAWAN.
+        Semua momen tersaji dengan tampilan modern agar dapat menginspirasi, memperlihatkan semangat, serta dedikasi siswa dalam berorganisasi dan berkarya.</p>
+      </div>
+    </aside>
+  </main>
+
+  <footer>© 2025 OSIS SMKN 1 WANAYASA | Desain oleh Tim Sekbid TIK</footer>
+
+  <!-- Script JS -->
+  <script src="script.js"></script>
+</body>
+</html>
